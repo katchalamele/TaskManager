@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TaskManager",
-    "slug": "TaskManager",
+    "name": "Task Manager",
+    "slug": "task-manager-dkm",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.dkm.taskmanager",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.dkm.taskmanager"
     },
     "web": {
       "favicon": "./assets/favicon.png"
